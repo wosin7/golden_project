@@ -1,0 +1,472 @@
+ 
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto+Slab|Source+Sans+Pro:400,400i');
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background: url('https://images.pexels.com/photos/900106/pexels-photo-900106.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940') center;
+    background-size: cover;
+    .navbar {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .logo {
+        font-size: 40px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-style: italic;
+        color: #fed136;
+    }
+    li {
+       // font-family: $basic-font;
+        font-size: 14px;
+    }
+    a {
+        margin: 0 5px;
+        font-size: 20px;
+        color: white;
+       
+        &:hover {
+            transition: color .5s ease;
+            color:  #fed136;
+            text-decoration: none;
+        }
+    }
+}
+.jumbo {
+    text-align: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    font-family: 'Source Sans Pro', sans-serif;    
+    h1 {
+        font-size: 40px;
+        font-style: italic;
+        color: #fed136;
+    }
+    h2 {
+        font-size: 80px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: white;}
+    button {
+        background-color: white;
+        width: 240px;
+        border-color: white;
+        color:#fed136;
+        font-weight: bold;
+        &:hover {
+            transform: scale(1.20);
+            transition: transform .5s ease-in-out;
+            background-color: #fed136;
+            color:white;
+            border-color: #fed136;
+        }
+    }
+}
+
+.servis {
+    text-align: center;
+    h2 {
+        padding-top: 100px;
+        font-size: 40px;
+       // font-family: $basic-font;
+        text-align: center;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    h3 {
+        text-align: center;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: bold;
+        font-size: 18px;
+        margin: 0 auto;
+    }
+    p {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 14px;
+        width: 75%;
+        margin: 20px auto;
+        padding-bottom: 50px;
+        color:#777;
+    }
+    i {
+        width: 90px;
+        height: 90px;
+        border: 3px solid #fed136;
+        border-radius: 50%;
+        font-size: 50px;
+        color: #fed136;
+        margin-bottom: 20px;
+    
+    }
+    .fas {
+        line-height: 75px;
+        text-align: center;
+    }
+}
+.portfolio {
+    background-color: rgb(230, 227, 227);
+    .container{
+        padding-bottom: 100px;
+
+    }
+    h2 {
+        font-size: 40px;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: center;
+    } 
+    .col-md-4, .col-sm-12, .col-lg-4 {
+        text-align: center;
+    }
+    p {
+        color:rgb(94, 94, 94);
+        text-align: center;
+        font-size: 15px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-style: italic;
+        
+    }
+    h3 {
+        padding-top: 20px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    img {
+        padding-top: 70px;
+        object-fit: cover;
+        width: 100%;
+        height: 80%;
+    }
+    .port-desc{
+        background-color: white;
+    }
+}
+.about {
+   
+    padding-bottom: 50px;
+
+    img {
+        border: 5px solid #c9c3c3;
+        border-radius: 50%;
+        margin-bottom: 65px;
+        width: 200px;
+        height: 200px;
+        align-items: center;
+        margin-left: 10px;
+        margin-right: 10px;
+        
+    }
+    h2 {
+        font-size: 40px;
+        text-align: center;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding-top: 100px;
+    }
+    p {
+        color:rgb(117, 117, 117);
+        text-align: center;
+        font-size: 16px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-style: italic;
+        padding-bottom: 70px;
+    }
+    .right {
+        padding-top: 20px;
+        h3 {
+            font-size: 18px;
+            font-weight: bold;
+            color: rgb(39, 38, 38);
+            text-transform: uppercase;
+            text-align: right;
+        }   
+        p {
+            font-size: 14px;
+            font-family: 'Source Sans Pro', sans-serif;
+            color: rgb(117, 117, 117);
+            text-align: right;
+       }
+    }
+    .left {
+        padding-top: 20px;
+        h3 {
+            font-size: 18px;
+            font-weight: bold;
+            color: #222;
+            text-transform: uppercase;
+            text-align: left; 
+            padding-left: 50px;
+        }
+        p {
+            font-size: 14px;
+            font-family: 'Source Sans Pro', sans-serif;
+            color: rgb(117, 117, 117);
+            text-align: left;
+            padding-left: 50px;
+        }
+    }
+    .cont{
+        text-align: center;
+    }
+    .continued {
+        margin-left: 100px;
+        height: 190px;
+        width: 190px;
+        border-radius: 50%;
+        background-color: #fed136;
+        margin-left: 30%;
+        border: 5px solid #c9c3c3;
+        p {
+            border-radius: 50%;
+            padding-top: 55px;
+            color: #FFF;
+            font-weight: bold;
+            font-size: 18px;
+            text-transform: uppercase;
+        }
+    } 
+}
+.people {
+    background-color: #f9f9f9;
+    h2 {
+        font-size: 40px;
+        text-align: center;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding-top: 100px;
+    }
+    p {
+        color:#777;
+        text-align: center;
+        font-size: 16px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-style: italic;
+        padding-bottom: 40px;
+    }
+    .team {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        background: url("http://placehold.it/250x250");
+        margin: 0 auto;
+    }
+    h3 {
+        font-size: 18px;
+        font-weight: bold;
+        color: #222;
+        text-transform: uppercase;
+        text-align: center;
+        padding-top: 20px;
+    }
+    .icons {
+        text-align: center;
+        padding-bottom: 50px;
+        i {
+            width: 45px;
+            height: 45px;   
+            padding: 10px;
+            font-size: 24px;
+            border: 2px solid black;
+            border-radius: 50%;
+            text-align: center;
+            margin: 0 5px;
+        }
+        .fa-google-plus-g {
+        &:before {
+            display:flex;
+            justify-content: center;
+            }
+        }
+    }
+}
+.logos {
+    padding: 60px 0;
+    text-align: center;
+}
+.contact {
+    padding: 100px 10px;
+    background-color: #222;
+    text-align: center;
+    p {
+        font-size: 14px;
+        font-family: 'Source Sans Pro', sans-serif;
+        color: rgb(92, 89, 89);
+    }
+    h2 {
+        font-size: 40px;
+        text-align: center;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: white;
+    }
+    
+        color: rgb(206, 204, 204);
+    }
+    .form-control {
+        margin-bottom: 23px;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: bold;
+        }
+   textarea {
+       margin-left: 10px;
+    }
+    button {
+        background-color: white;
+        width: 240px;
+        border-color: white;
+        color:#fed136;
+        font-weight: bold;
+        &:hover {
+            transform: scale(1.20);
+            transition: transform .5s ease-in-out;
+            background-color: #fed136;
+            color:white;
+            border-color: #fed136;
+        }
+    }
+    ::placeholder {
+        color: rgb(184, 179, 179);
+    }
+
+footer {
+    padding: 30px 0;
+    display: flex;
+    p {
+        font-size: 14px;
+        color: #555;
+        padding-top: 10px;
+    }
+    .social {
+        text-align: center;
+        i {
+            width: 45px;
+            height: 45px;   
+            padding: 10px;
+            font-size: 24px;
+            border: 2px solid rgb(75, 73, 73);
+            border-radius: 50%;
+            margin: 0 10px;
+            color: white;
+            background-color: black;
+            &:hover {
+                background-color: #fed136;
+                border: 1px solid #fed136;
+                color: black;
+            }
+        }
+        /*  */
+    }
+}
+@media (max-width: 992px) {
+    .about {
+        text-align: center;
+        .cont{
+            text-align: center;
+        }
+        .left {
+            h3 {
+                text-align: center;
+                padding-left: 0;
+            }
+            p {
+                text-align: center;
+                padding-left: 0;
+                padding-bottom: 50px;
+            }
+           
+        }
+        .right {
+            h3 {
+                text-align: center;
+            }
+            p {
+                text-align: center;
+            }
+            
+        }
+    }
+    .logos {
+        text-align: center;
+        img {
+            padding: 20px;
+        }
+    }
+}
+@media (max-width: 767px) {
+
+    header {
+        .navbar   {
+            text-align: center;
+            margin: 0 auto; 
+            width: 100%;
+        }
+        ul {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            margin: 0 auto;
+        }
+    }
+    .jumbo {
+        h2 {
+            font-size: 50px;
+        }
+    }
+    .about {
+        text-align: center;
+        .cont{
+            text-align: center;
+        }
+        img {
+            display: none;
+        }
+        .left {
+            p {
+                text-align: center;
+            }
+            h3 {
+                text-align: center;
+            }
+        }
+        .right {
+            p {
+                text-align: center;
+            }
+            h3 {
+                text-align: center;
+            }
+        }
+    }
+    .logos {
+        text-align: center;
+        img {
+            padding: 25px 0;
+        }
+    }
+    .contact {
+        textarea {
+            margin: 0 auto;
+        }
+    }
+    footer {
+        p {
+            text-align: center;
+        }
+        .social {
+            i {
+                margin: 0 10px;
+            }
+        }
+    }
+}
